@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background:white;
+    border-bottom: 1px solid lightgray;
+    padding: 35px;
+}
+.container {
+    background: white;
+    width: 980px;
+    margin: auto;
+}
+.container-left {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.logo {
+    float: left;
+    margin: 5px;
+}
+
+.logo img {
+    display: block;
+}
+
+.menu {
+    float: left;
+}
+
+.menu-item {
+    float: left;
+    padding: 8px 10px;
+    /*padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px; 위에 것은 단축형임!*/ 
+}
+
+.clearfix::after {
+    content; "";
+    display: block;
+    clear: both;
+}   
